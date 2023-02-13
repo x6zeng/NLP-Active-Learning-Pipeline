@@ -6,6 +6,8 @@ COPY . .
 
 USER root
 
+RUN apt update
+
 RUN pip install -r requirements.txt
 
 CMD ["/bin/bash"]
