@@ -50,7 +50,7 @@ def standardize_sent(sent):
 
 
 def clean_text(text):
-    if type(text) == np.float:
+    if type(text) == np.float64:
         return ""
     temp = text.lower() # to lower case
     temp = re.sub("'", "", temp) # to avoid removing contractions in english

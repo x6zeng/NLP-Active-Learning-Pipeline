@@ -8,6 +8,8 @@ USER root
 
 RUN apt update
 
+RUN pip isntall nltk
+
 RUN pip install -r requirements.txt
 
 CMD ["/bin/bash"]
