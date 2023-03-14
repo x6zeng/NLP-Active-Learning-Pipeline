@@ -1,2 +1,0 @@
-,model_names,training_method,balance,sampling_size,sort_by_time,partition_ratio,seed_size,unlabeled_size,test_size,accuracy,f1_micro,f1_macro,f1_weighted,precision_micro,precision_macro,precision_weighted,recall_micro,recall_macro,recall_weighted
-1,"SVC, KNN, Decision Tree, Random Forest, AdaBoost",random_sampling,True,100,True,"[0.5, 0.25, 0.25]",15,6,12,0.417,0.417,0.367,0.367,0.417,0.333,0.333,0.417,0.417,0.417
