@@ -7,8 +7,9 @@ This is the repository for our DSC180B section A12 Group B Quarter 2 Project, wh
   - raw: empty, folder to store the raw data
   - result: folder to store the result data
 - __notebook__: folder to store the pre-development notebooks
-  - `Relevance_AL_Committee.ipynb` - all the pre-development code for relevance model
-  - `Sentiment_AL_Committee.ipynb` - all the pre-development code for sentiment model
+  - analyses: notebooks containing the active learning results analyses.
+  - explorations: code explorations for active learning pipeline.
+  - model_comparison: all the pre-development code for relevance and sentiment model, as well as the comparison between models using different hyperparameters.
 - __src__: folder to store the files of obtaining the dataset, building the features, and the code for the 2 models
   - `utilities.py` - script to preprocess the raw data
   - `Relevance_AL_Committee.py` - script to train the relevance model
@@ -21,3 +22,4 @@ The data used in this project was provided by the staffs from the China Data Lab
 - `Dockerfile`: contains the information for building the docker image
 - `run.py`: the script to run the models. To run the models on test data, use the following command: 
   - `python3 run.py test`
+- `submission.json`: contains the submission information
